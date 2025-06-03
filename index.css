@@ -1,0 +1,17 @@
+.gradient-background {
+  background: linear-gradient(to right, #1c1c1c, #2f2f2f); /* dark gray gradient */
+  color: white;
+}
+
+.content-shift-left {
+  margin-left: -30px; /* shift to left */
+}
+
+@media (max-width: 768px) {
+  .content-shift-left {
+    margin-left: 0; /* reset on small screens */
+  }
+}
+h1 {
+  color: aliceblue;
+}
